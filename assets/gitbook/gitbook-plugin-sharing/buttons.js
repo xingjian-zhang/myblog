@@ -109,6 +109,13 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     window.open(opts["telegram_link"]);
                 }
             }
+            if (sideId === "twitter" && opts["twitter_link"] !== undefined && opts["twitterlink"] !== "") {
+                onClick = function(e) {
+                    e.preventDefault();
+                    window.open(opts["twitter_link"]);
+                }
+            }
+
 
             gitbook.toolbar.createButton({
                 icon: site.icon,
