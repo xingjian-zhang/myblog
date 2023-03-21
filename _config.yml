@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Xingjian Zhang | Blog
+longtitle:        Xingjian Zhang | Blog
+author:           Xingjian Zhang
+email:            jimmyzxj@umich.edu
 description: >
-  Build Jekyll site with the GitBook style.
+  Xingjian Zhang's blog
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://xingjian-zhang.github.io'
+baseurl:          '/myblog'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
